@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Web;
+using System.Data.Entity;
 
 namespace damacanawebapi.Models
 {
@@ -13,7 +14,7 @@ namespace damacanawebapi.Models
       
         public DateTime DateTime { get; set; }
         public decimal totalprice { get; set; }
-      public virtual ICollection<cartproducts> cart_products{ get; set; }
+  public virtual ICollection<cartproducts> cart_products{ get; set; }
 
 
     }

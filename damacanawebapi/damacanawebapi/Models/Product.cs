@@ -3,10 +3,11 @@ using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
+using System.Data.Entity;
 
 namespace damacanawebapi.Models
 {
-    class Product
+   public class Product
     {
         [Required]
         public int Id { get; set; }
